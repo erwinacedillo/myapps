@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    padding-top: 56px;
+}
+
+.hero {
+    background: url('../image/system_unit.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.feature {
+    background-color: #f8f9fa;
+}
+
+.feature i {
+    color: #007bff;
+}
+
+.cta {
+    background-color: #f8f9fa;
+}
+
+
+/* Sidebar styles */
+#sidebar {
+    background-color: #f8f9fa; /* Light background for sidebar */
+    padding: 15px;
+    border-right: 1px solid #ddd; /* Border for separation */
+}
+
+#sidebar h4 {
+    color: #007bff; /* Sidebar heading color */
+    margin-bottom: 1rem;
+}
+
+#sidebar .nav-item {
+    margin-bottom: 0.5rem;
+}
+
+#sidebar .nav-item .nav-link {
+    display: block; /* Block display for full width */
+    padding: 10px 15px; /* Padding for spacing */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+#sidebar .nav-item .nav-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    background-color: #e9ecef; /* Light background on hover */
+}
+
+/* Link colors */
+#sidebar .nav-link.primary-link {
+    color: #007bff; /* Primary link color */
+}
+
+#sidebar .nav-link.primary-link:hover {
+    background-color: #e9ecef; /* Light background on hover */
+}
+
+#sidebar .nav-link.secondary-link {
+    color: #6c757d; /* Secondary link color */
+}
+
+#sidebar .nav-link.secondary-link:hover {
+    background-color: #e9ecef; /* Light background on hover */
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center; /* Center align text and elements within the card */
+}
+.product-card img {
+    max-width: 100%; /* Ensure the image fits within the card */
+    height: auto;
+    margin: 0 auto; /* Center the image horizontally */
+}
+.add-to-cart-btn {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+}
+
+.product-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 16px;
+            transition: box-shadow 0.3s ease-in-out;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+        .product-details {
+            padding: 16px;
+        }
+        .product-details h2 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+        .product-details p {
+            margin-bottom: 4px;
+        }
+        .add-to-cart-btn {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .add-to-cart-btn:hover {
+            background-color: #0056b3;
+        }
+
+	
